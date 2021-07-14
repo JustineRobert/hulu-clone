@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import Header from './../components/Header';
 import Nav from './../components/Nav';
-import Results from './../../hulu-clone-main/components/Results';
 import requests from "../utils/requests";
+import Results from "../components/Results";
 
 
 export default function Home({results}) {
